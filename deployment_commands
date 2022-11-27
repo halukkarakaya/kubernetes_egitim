@@ -1,0 +1,6 @@
+kubectl create -f deployment_definition.yaml
+kubectl get deployments
+kubectl get replicaset
+kubectl get pods
+kubectl get all
+kubectl scale --replicas=6 deployment myapp
