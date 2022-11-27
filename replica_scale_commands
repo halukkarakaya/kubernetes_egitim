@@ -1,0 +1,4 @@
+kubectl replace -f replicaset_definition.yaml
+kubectl scale --replicas=6 -f replicaset_definition.yaml
+kubectl scale --replicas=6 replicaset myapp-replicaset
+kubectl edit replicaset myapp-replicaset
