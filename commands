@@ -1,0 +1,5 @@
+kubectl create -f pod_definition.yaml
+kubectl replace -f pod_definition.yaml
+kubectl apply -f pod_definition.yaml
+kubectl get pods
+kubectl get nodes
