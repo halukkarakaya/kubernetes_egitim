@@ -6,7 +6,7 @@ metadata:
   name: myapp-pod
 spec:
   ports:
-  - nodePort: 30719
+  - nodePort: 30008
     port: 80
     targetPort: 80
   selector:
