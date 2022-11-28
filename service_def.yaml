@@ -4,6 +4,7 @@ metadata:
   labels:
     app: myapp
   name: myapp-pod
+spec:
   ports:
   - nodePort: 30719
     port: 80
