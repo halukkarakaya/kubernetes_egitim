@@ -25,4 +25,4 @@ spec:
               - key: size
                 operator: Gt
                 values:
-                - "100"
+                - "99"
