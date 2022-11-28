@@ -2,14 +2,12 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    name: myapp-service
-   
-spec:
-    type: NodePort
-    ports:
-      - targetPort: 80
-        port: 80
-        nodePort: 30008
-    selector:
-        app: myapp
-        type: front-end
+    app: myapp
+  name: myapp-pod
+  ports:
+  - nodePort: 30719
+    port: 80
+    targetPort: 80
+  selector:
+    app: myapp
+  type: NodePort
