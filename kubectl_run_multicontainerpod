@@ -1,1 +1,0 @@
-kubectl run mypod --image redis && kubectl patch deploy mypod --patch '{"spec": {"template": {"spec": {"containers": [{"name": "patch-demo", "image": "nginx"}]}}}}'
